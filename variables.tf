@@ -1,5 +1,6 @@
 // Required variables for Terraform provider to work
 
+variable "tenancy_ocid" {}
 variable "region" {
   default = "eu-frankfurt-1"
 }
