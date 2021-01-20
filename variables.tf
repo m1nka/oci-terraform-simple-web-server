@@ -1,9 +1,5 @@
 // Required variables for Terraform provider to work
 
-variable "tenancy_ocid" {}
-variable "user_ocid" {}
-variable "fingerprint" {}
-variable "private_key_path" {}
 variable "region" {
   default = "eu-frankfurt-1"
 }
