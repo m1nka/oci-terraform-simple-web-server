@@ -12,7 +12,7 @@ variable "AD" {
   default = "1"
 }
 
-// Set variable to "VM.Standard.E2.1.Micro" to provision a free tier instance VM.Standard2.1
+// Set variable to "VM.Standard.E2.1.Micro" to provision a free tier instance
 variable "compute_shape" {
-  default = "VM.Standard.E2.1.Micro"
+  default = "VM.Standard2.1"
 }
